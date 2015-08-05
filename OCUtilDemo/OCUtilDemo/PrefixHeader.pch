@@ -1,0 +1,18 @@
+//
+//  PrefixHeader.pch
+//  OCUtilDemo
+//
+//  Created by chengw on 15/8/5.
+//  Copyright (c) 2015年 JM. All rights reserved.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#endif
