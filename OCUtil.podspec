@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "OCUtil"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "OC 工具类"
 
   s.description  = <<-DESC
