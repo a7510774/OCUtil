@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "OCUtil"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "OC 工具类"
 
   s.description  = <<-DESC
@@ -25,6 +25,7 @@ Pod::Spec.new do |s|
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
     s.requires_arc = true
+    spec.prefix_header_contents = '#import "OCUtil.h"'
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   #  s.dependency "JSONKit", "~> 1.4"
 end
