@@ -150,5 +150,23 @@
     
     self.layer.mask = mask_test;
 }
+@end
 
+@implementation UIImage(Circle)
+- (UIImage*)circleImageWithParam:(CGFloat)inset {
+    UIGraphicsBeginImageContext(self.size);
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    CGContextSetLineWidth(context, 2);
+    CGContextSetStrokeColorWithColor(context, [UIColor redColor].CGColor);
+    CGRect rect = CGRectMake(inset, inset, self.size.width - inset * 2.0f, self.size.height - inset * 2.0f);
+    CGContextAddEllipseInRect(context, rect);
+    CGContextClip(context);
+    
+    [self drawInRect:rect];
+    CGContextAddEllipseInRect(context, rect);
+    CGContextStrokePath(context);
+    UIImage *newimg = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    return newimg;
+}
 @end

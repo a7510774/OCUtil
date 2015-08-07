@@ -43,3 +43,11 @@
 
 @end
 
+/**
+ *  @brief  圆形+边界+波纹动画
+ *  注意事项：1、ImageView必需为正方形 2、设置图片必需使用代码
+ */
+@interface CircelRippleImageView : UIImageView
+
+@end
+

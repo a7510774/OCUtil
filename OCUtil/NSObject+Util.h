@@ -84,12 +84,21 @@
 - (void)logFrame;
 - (void)logPoint;
 
-//显示阴影
+/**
+ *  @brief  显示阴影
+ */
 - (void)showShadow;
 
 //不规则图形
 - (void)maskWithImageName:(NSString *)name;
 
+@end
+
+/**
+ *  @brief  将方形图片裁剪为圆形
+ */
+@interface UIImage(Circle)
+-(UIImage*)circleImageWithParam:(CGFloat) inset;
 @end
 
 
