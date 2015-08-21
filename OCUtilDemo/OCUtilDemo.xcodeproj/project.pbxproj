@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38CF240C1B870A9A006FA9DD /* UIImageView+GWCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 38CF240B1B870A9A006FA9DD /* UIImageView+GWCategory.m */; };
+		38CF240F1B870ABB006FA9DD /* UIImage+GWCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 38CF240E1B870ABB006FA9DD /* UIImage+GWCategory.m */; };
+		38CF24121B870AE6006FA9DD /* UIView+GWCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 38CF24111B870AE6006FA9DD /* UIView+GWCategory.m */; };
+		38CF24151B870AFA006FA9DD /* UIButton+GWCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 38CF24141B870AFA006FA9DD /* UIButton+GWCategory.m */; };
+		38CF241B1B871118006FA9DD /* CirAndWaveImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38CF241A1B871118006FA9DD /* CirAndWaveImageView.m */; };
+		38CF241F1B871550006FA9DD /* UITextField+GWCategoty.m in Sources */ = {isa = PBXBuildFile; fileRef = 38CF241E1B871550006FA9DD /* UITextField+GWCategoty.m */; };
+		38CF24221B8715AD006FA9DD /* TagTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 38CF24211B8715AD006FA9DD /* TagTextField.m */; };
+		38CF24251B871A51006FA9DD /* FocusTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 38CF24241B871A51006FA9DD /* FocusTextField.m */; };
+		38CF24281B871A5D006FA9DD /* NSObject+GWCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 38CF24271B871A5D006FA9DD /* NSObject+GWCategory.m */; };
 		38D595C31B71F76D006587E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D595C21B71F76D006587E2 /* main.m */; };
 		38D595C61B71F76D006587E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D595C51B71F76D006587E2 /* AppDelegate.m */; };
 		38D595C91B71F76D006587E2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D595C81B71F76D006587E2 /* ViewController.m */; };
@@ -14,8 +23,6 @@
 		38D595CE1B71F76D006587E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38D595CD1B71F76D006587E2 /* Images.xcassets */; };
 		38D595D11B71F76D006587E2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38D595CF1B71F76D006587E2 /* LaunchScreen.xib */; };
 		38D595DD1B71F76D006587E2 /* OCUtilDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D595DC1B71F76D006587E2 /* OCUtilDemoTests.m */; };
-		38D595F41B720235006587E2 /* NSObject+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D595F11B720235006587E2 /* NSObject+Util.m */; };
-		38D595F51B720235006587E2 /* OCUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D595F31B720235006587E2 /* OCUtil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +36,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		38CF23F11B86FB14006FA9DD /* OCUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCUtil.h; sourceTree = "<group>"; };
+		38CF240A1B870A9A006FA9DD /* UIImageView+GWCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+GWCategory.h"; sourceTree = "<group>"; };
+		38CF240B1B870A9A006FA9DD /* UIImageView+GWCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+GWCategory.m"; sourceTree = "<group>"; };
+		38CF240D1B870ABB006FA9DD /* UIImage+GWCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GWCategory.h"; sourceTree = "<group>"; };
+		38CF240E1B870ABB006FA9DD /* UIImage+GWCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GWCategory.m"; sourceTree = "<group>"; };
+		38CF24101B870AE6006FA9DD /* UIView+GWCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GWCategory.h"; sourceTree = "<group>"; };
+		38CF24111B870AE6006FA9DD /* UIView+GWCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GWCategory.m"; sourceTree = "<group>"; };
+		38CF24131B870AFA006FA9DD /* UIButton+GWCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+GWCategory.h"; sourceTree = "<group>"; };
+		38CF24141B870AFA006FA9DD /* UIButton+GWCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+GWCategory.m"; sourceTree = "<group>"; };
+		38CF24191B871118006FA9DD /* CirAndWaveImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CirAndWaveImageView.h; sourceTree = "<group>"; };
+		38CF241A1B871118006FA9DD /* CirAndWaveImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CirAndWaveImageView.m; sourceTree = "<group>"; };
+		38CF241D1B871550006FA9DD /* UITextField+GWCategoty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+GWCategoty.h"; sourceTree = "<group>"; };
+		38CF241E1B871550006FA9DD /* UITextField+GWCategoty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+GWCategoty.m"; sourceTree = "<group>"; };
+		38CF24201B8715AD006FA9DD /* TagTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagTextField.h; sourceTree = "<group>"; };
+		38CF24211B8715AD006FA9DD /* TagTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagTextField.m; sourceTree = "<group>"; };
+		38CF24231B871A51006FA9DD /* FocusTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FocusTextField.h; sourceTree = "<group>"; };
+		38CF24241B871A51006FA9DD /* FocusTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FocusTextField.m; sourceTree = "<group>"; };
+		38CF24261B871A5D006FA9DD /* NSObject+GWCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+GWCategory.h"; sourceTree = "<group>"; };
+		38CF24271B871A5D006FA9DD /* NSObject+GWCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+GWCategory.m"; sourceTree = "<group>"; };
 		38D595BD1B71F76D006587E2 /* OCUtilDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCUtilDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38D595C11B71F76D006587E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38D595C21B71F76D006587E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -43,10 +69,6 @@
 		38D595DB1B71F76D006587E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38D595DC1B71F76D006587E2 /* OCUtilDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCUtilDemoTests.m; sourceTree = "<group>"; };
 		38D595EE1B72004D006587E2 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		38D595F01B720235006587E2 /* NSObject+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Util.h"; sourceTree = "<group>"; };
-		38D595F11B720235006587E2 /* NSObject+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Util.m"; sourceTree = "<group>"; };
-		38D595F21B720235006587E2 /* OCUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCUtil.h; sourceTree = "<group>"; };
-		38D595F31B720235006587E2 /* OCUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCUtil.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +89,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		38CF23F81B87030A006FA9DD /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				38CF24261B871A5D006FA9DD /* NSObject+GWCategory.h */,
+				38CF24271B871A5D006FA9DD /* NSObject+GWCategory.m */,
+			);
+			path = NSObject;
+			sourceTree = "<group>";
+		};
+		38CF23F91B870319006FA9DD /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				38CF24101B870AE6006FA9DD /* UIView+GWCategory.h */,
+				38CF24111B870AE6006FA9DD /* UIView+GWCategory.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		38CF23FB1B870354006FA9DD /* UIImageView */ = {
+			isa = PBXGroup;
+			children = (
+				38CF240A1B870A9A006FA9DD /* UIImageView+GWCategory.h */,
+				38CF240B1B870A9A006FA9DD /* UIImageView+GWCategory.m */,
+				38CF24191B871118006FA9DD /* CirAndWaveImageView.h */,
+				38CF241A1B871118006FA9DD /* CirAndWaveImageView.m */,
+			);
+			path = UIImageView;
+			sourceTree = "<group>";
+		};
+		38CF23FC1B870361006FA9DD /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				38CF240D1B870ABB006FA9DD /* UIImage+GWCategory.h */,
+				38CF240E1B870ABB006FA9DD /* UIImage+GWCategory.m */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		38CF24061B87067B006FA9DD /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				38CF24131B870AFA006FA9DD /* UIButton+GWCategory.h */,
+				38CF24141B870AFA006FA9DD /* UIButton+GWCategory.m */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		38CF241C1B87152B006FA9DD /* UITextField */ = {
+			isa = PBXGroup;
+			children = (
+				38CF24231B871A51006FA9DD /* FocusTextField.h */,
+				38CF24241B871A51006FA9DD /* FocusTextField.m */,
+				38CF24201B8715AD006FA9DD /* TagTextField.h */,
+				38CF24211B8715AD006FA9DD /* TagTextField.m */,
+				38CF241D1B871550006FA9DD /* UITextField+GWCategoty.h */,
+				38CF241E1B871550006FA9DD /* UITextField+GWCategoty.m */,
+			);
+			path = UITextField;
+			sourceTree = "<group>";
+		};
 		38D595B41B71F76D006587E2 = {
 			isa = PBXGroup;
 			children = (
@@ -131,10 +213,13 @@
 		38D595EF1B720235006587E2 /* OCUtil */ = {
 			isa = PBXGroup;
 			children = (
-				38D595F01B720235006587E2 /* NSObject+Util.h */,
-				38D595F11B720235006587E2 /* NSObject+Util.m */,
-				38D595F21B720235006587E2 /* OCUtil.h */,
-				38D595F31B720235006587E2 /* OCUtil.m */,
+				38CF241C1B87152B006FA9DD /* UITextField */,
+				38CF24061B87067B006FA9DD /* UIButton */,
+				38CF23FC1B870361006FA9DD /* UIImage */,
+				38CF23FB1B870354006FA9DD /* UIImageView */,
+				38CF23F91B870319006FA9DD /* UIView */,
+				38CF23F81B87030A006FA9DD /* NSObject */,
+				38CF23F11B86FB14006FA9DD /* OCUtil.h */,
 			);
 			name = OCUtil;
 			path = ../../OCUtil;
@@ -240,11 +325,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38D595F51B720235006587E2 /* OCUtil.m in Sources */,
+				38CF241B1B871118006FA9DD /* CirAndWaveImageView.m in Sources */,
+				38CF24121B870AE6006FA9DD /* UIView+GWCategory.m in Sources */,
 				38D595C91B71F76D006587E2 /* ViewController.m in Sources */,
+				38CF24281B871A5D006FA9DD /* NSObject+GWCategory.m in Sources */,
 				38D595C61B71F76D006587E2 /* AppDelegate.m in Sources */,
+				38CF24251B871A51006FA9DD /* FocusTextField.m in Sources */,
 				38D595C31B71F76D006587E2 /* main.m in Sources */,
-				38D595F41B720235006587E2 /* NSObject+Util.m in Sources */,
+				38CF241F1B871550006FA9DD /* UITextField+GWCategoty.m in Sources */,
+				38CF240F1B870ABB006FA9DD /* UIImage+GWCategory.m in Sources */,
+				38CF24221B8715AD006FA9DD /* TagTextField.m in Sources */,
+				38CF240C1B870A9A006FA9DD /* UIImageView+GWCategory.m in Sources */,
+				38CF24151B870AFA006FA9DD /* UIButton+GWCategory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

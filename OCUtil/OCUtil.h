@@ -2,52 +2,32 @@
 //  OCUtil.h
 //  OCUtilDemo
 //
-//  Created by chengw on 15/8/5.
+//  Created by chengw on 15/8/21.
 //  Copyright (c) 2015年 JM. All rights reserved.
-//  test
+//  包含常用的工具头文件
 
-#import <Foundation/Foundation.h>
-#import <UIKit/UIKit.h>
-#import "NSObject+Util.h"
+#ifndef OCUtilDemo_OCUtil_h
+#define OCUtilDemo_OCUtil_h
 
-@interface OCUtil : NSObject
+//UITextField(发光、缩进)
+#import "UITextField+GWCategoty.h"
+#import "FocusTextField.h"
+#import "TagTextField.h"
 
-@end
+//UIButton(对齐)
+#import "UIButton+GWCategory.h"
 
-/**
- *  @brief  输入聚焦发光TextField 
-    @使用方式 code+xib
- */
-@interface InputLightTextField : UITextField
-{
-    CGFloat _cornerRadio;//圆角半径
-    UIColor *_borderColor;//边界颜色
-    CGFloat _borderWidth;//边界大小
-    UIColor *_lightColor;//焦点时阴影颜色
-    CGFloat _lightSize;//焦点时阴影大小
-    UIColor *_lightBorderColor;//焦点时边界颜色
-}
-- (id)initWithFrame:(CGRect)frame
-        cornerRadio:(CGFloat)radio
-        borderColor:(UIColor*)bColor
-        borderWidth:(CGFloat)bWidth
-         lightColor:(UIColor*)lColor
-          lightSize:(CGFloat)lSize
-   lightBorderColor:(UIColor*)lbColor;
-@end
+//UIImage(颜色创建图片、方切圆)
+#import "UIImage+GWCategory.h"
 
-/**
- *  控制TextField的缩进量
- */
-@interface JMTextField : UITextField
+//UIImageView(水波动画)
+#import "UIImageView+GWCategory.h"
+#import "CirAndWaveImageView.h"
 
-@end
+//UIView(position、阴影、遮罩、log)
+#import "UIView+GWCategory.h"
 
-/**
- *  @brief  圆形+边界+波纹动画
- *  注意事项：1、ImageView必需为正方形 2、设置图片必需使用代码
- */
-@interface CircelRippleImageView : UIImageView
+//NSObject(创建按钮)
+#import "NSObject+GWCategory.h"
 
-@end
-
+#endif
