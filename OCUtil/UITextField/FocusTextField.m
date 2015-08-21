@@ -45,7 +45,7 @@
 		_lightBorderColor = lbColor;
 		
 		[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(beginEditing:) name:UITextFieldTextDidBeginEditingNotification object:self];
-		[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(endEditing:) name:UITextFieldTextDidEndEditingNotification object:self];
+		[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(endEdit:) name:UITextFieldTextDidEndEditingNotification object:self];
 		[self.layer setCornerRadius:_cornerRadio];
 		[self.layer setBorderColor:_borderColor.CGColor];
 		[self.layer setBorderWidth:_borderWidth];
@@ -65,7 +65,7 @@
 	[self.layer setBorderColor:_lightBorderColor.CGColor];
 }
 
-- (void)endEditing:(NSNotification*) notification
+- (void)endEdit:(NSNotification*) notification
 {
 	[[self layer] setShadowOffset:CGSizeZero];
     [[self layer] setShadowRadius:0];
