@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "OCUtil"
-  s.version      = "0.0.8"
+  s.version      = "0.0.9"
   s.summary      = "OC 工具类"
 
   s.description  = <<-DESC
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.platform     = :ios, "7.0"
   s.source       = {:git => "https://github.com/a7510774/OCUtil.git", :tag => s.version.to_s }
-  s.source_files = "OCUtil/**/*.{h,m}"
+  s.source_files = 'OCUtil/*.{h,m}','OCUtil/NSObject', 'OCUtil/NSObject/*.{h,m}','OCUtil/UIButton', 'OCUtil/UIButton/*.{h,m}','OCUtil/UIImage', 'OCUtil/UIImage/*.{h,m}','OCUtil/UIImageView', 'OCUtil/UIImageView/*.{h,m}','OCUtil/ UITextField', 'OCUtil/ UITextField/*.{h,m}','OCUtil/UIView', 'OCUtil/UIView/*.{h,m}'
   s.frameworks = "UIKit", "Foundation"
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
