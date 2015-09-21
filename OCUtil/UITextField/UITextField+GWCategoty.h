@@ -10,4 +10,11 @@
 
 @interface UITextField (GWCategoty)
 
+/**
+ *  @brief  设置Field左边图片
+ *
+ *  @param image 图片
+ */
+- (void)setLeftImage:(UIImage *)image;
+
 @end
