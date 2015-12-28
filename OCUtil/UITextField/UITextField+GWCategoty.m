@@ -10,10 +10,4 @@
 
 @implementation UITextField (GWCategoty)
 
-- (void)setLeftImage:(UIImage *)image
-{
-    self.leftView = [[UIImageView alloc]initWithImage:image];
-    self.leftViewMode = UITextFieldViewModeAlways;
-}
-
 @end
